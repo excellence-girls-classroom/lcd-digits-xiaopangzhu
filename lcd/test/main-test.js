@@ -1,4 +1,4 @@
-describe('pos', function() {
+describe('lcd', function() {
 
   describe('buildDigits', function() {
     it('a few digit',function(){
