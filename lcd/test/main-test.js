@@ -15,17 +15,11 @@ describe('lcd', function() {
       [
         {
           digit:'2',
-          lcdDigit:
-            '\n._.' +
-            '\n._|' +
-            '\n|_.'
+          lcdDigit:['._.','._|','|_.']
         },
         {
           digit:'3',
-          lcdDigit:
-            '\n._.' +
-            '\n._|' +
-            '\n._|'
+          lcdDigit:['._.','._|','._|']
         }
       ];
       expect(buildLcdDigits(digits)).toEqual(expectation);
@@ -37,10 +31,7 @@ describe('lcd', function() {
       var lcdDigits = [
         {
           digit:'2',
-          lcdDigit:
-          '\n._.' +
-          '\n._|' +
-          '\n|_.'
+          lcdDigit:['._.','._|','|_.']
         }
       ];
       var expectation =
@@ -53,17 +44,11 @@ describe('lcd', function() {
       var lcdDigits = [
         {
           digit:'2',
-          lcdDigit:
-          '\n._.' +
-          '\n._|' +
-          '\n|_.'
+          lcdDigit:['._.','._|','|_.']
         },
         {
           digit:'3',
-          lcdDigit:
-          '\n._.' +
-          '\n._|' +
-          '\n._|'
+          lcdDigit:['._.','._|','._|']
         }
       ];
       var expectation =
