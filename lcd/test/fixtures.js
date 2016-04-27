@@ -1,6 +1,3 @@
-/**
- * Created by zouziqin on 16-4-22.
- */
 function loadAllLcdDigits(){
     return [
         {
