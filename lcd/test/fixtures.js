@@ -5,73 +5,43 @@ function loadAllLcdDigits(){
     return [
         {
             digit:'0',
-            lcdDigit:
-                '\n._.' +
-                '\n|.|' +
-                '\n|_|'
+            lcdDigit:['._.','|.|','|_|']
         },
         {
             digit:'1',
-            lcdDigit:
-                '\n..|' +
-                '\n..|' +
-                '\n..|'
+            lcdDigit:['..|','..|','..|']
         },
         {
             digit:'2',
-            lcdDigit:
-                '\n._.' +
-                '\n._|' +
-                '\n|_.'
+            lcdDigit:['._.','._|','|_.']
         },
         {
             digit:'3',
-            lcdDigit:
-                '\n._.' +
-                '\n._|' +
-                '\n._|'
+            lcdDigit:['._.','._|','._|']
         },
         {
             digit:'4',
-            lcdDigit:
-                '\n...' +
-                '\n|_|' +
-                '\n..|'
+            lcdDigit:['...','|_|','..|']
         },
         {
             digit:'5',
-            lcdDigit:
-                '\n._.' +
-                '\n|_.' +
-                '\n._|'
+            lcdDigit:['._.','|_.','._|']
         },
         {
             digit:'6',
-            lcdDigit:
-                '\n._.' +
-                '\n|_.' +
-                '\n|_|'
+            lcdDigit:['._.','|_.','|_|']
         },
         {
             digit:'7',
-            lcdDigit:
-                '\n._.' +
-                '\n..|' +
-                '\n..|'
+            lcdDigit:['._.','..|','..|']
         },
         {
             digit:'8',
-            lcdDigit:
-                '\n._.' +
-                '\n|_|' +
-                '\n|_|'
+            lcdDigit:['._.','|_|','|_|']
         },
         {
             digit:'9',
-            lcdDigit:
-                '\n._.' +
-                '\n|_|' +
-                '\n._|'
+            lcdDigit:['._.','|_|','._|']
         }
     ];
 }
